@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Week 001
+# Week 01
 
 [← Back to Home](../index.md)
 

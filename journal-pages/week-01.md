@@ -8,8 +8,10 @@ layout: default
 
 ## Class Comunications 
 ### What is Data?
-![ ](../assets/week-01/data?.png)
 
+![ ](<../assets/week-01/Screenshot 2026-03-31 at 1.54.04 AM.png>)
+
+Data is 
 
 ## Images & Media
 

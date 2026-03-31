@@ -53,3 +53,20 @@ At the same time, it is a playful experience in public space. I think there're s
 
 ### Data Humanism
 
+The video recording of Giorgia Lupi on how to visualizes life through data. I the video, she records the sypthem she have during the Covid-19 during a year.
+
+This experiment or the video notice me that I can use similair way to record something that I haven't always noticed, and this is also a effective way to create a habit of recording my life using a creative and abtract tool.
+
+##
+
+## Group Data Portraits
+Step 1: Collect
+- As a group, devise a short questionnaire
+- Answer individually, record your own answers anonymously
+
+Step 2: Visualise
+- Work together to produce a collective data drawing
+- Invent your own visual language
+
+![ ](../assets/week-01/IMG_5029.jpeg)
+

@@ -117,3 +117,17 @@ Don't rely on apps or digital tools. The act of noticing and writing things down
 
 Be as specific and honest as you can. Include details that feel imperfect, ambiguous, or hard to categorise.
 
+![ ](<../assets/week-01/WechatIMG3 1.jpeg>)
+
+**This is what I record in this week, I have few categories: water, coffee, coconut, tea and soft drinks.**
+
+### Step 3: Design your visualisation
+After your collection period, create a data drawing on one side of A4 card.
+
+Invent a personal visual language: use colour, shape, position, pattern, size, and texture to encode different aspects of your data. On the reverse side, draw a
+legend that explains your visual system.
+
+![ ](../assets/week-01/IMG_5789.jpeg)
+
+![ ](../assets/week-01/IMG_5788.jpeg)
+

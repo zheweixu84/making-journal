@@ -131,3 +131,14 @@ legend that explains your visual system.
 
 ![ ](../assets/week-01/IMG_5788.jpeg)
 
+### Document and Reflection
+
+What I choose to track is how much liquid and different kind of liquid I have in this week. I choose this is basicly beacuse I think I don't have enough liquid drink everyday and this is something I would like to record for a long time. 
+
+To collecting this data is not that easy, the amount of water I have each time is different, so I keep it as 400ml as a unit which is the size of my cup at home and it's also the normal size if I buy coffee at Starbucks or Bubbletea shop. Collecting this data is also a process that recording my own health. I use different colours and symbols to represents different categories mostly are similise to what it's originally looks like and the coconut I use a stamp to shown, the soft drink use the bubbles to represents the carbon dioaxide.
+
+I notice that I need to drink more water, most of the day I have other drinks more than water. Although coconut and tea are also healthy drinks. If I didn't do this experiment, I will not notice that I actually have a lot soft drinks. This always happened while I have dinner and I bearly notice that I have it often. And from the date of the data collect, I notice that I will always have coffee on the day I need go to school and tea on the day that at home, coconut on the day that I went to work. Also on the weekends, I have more amount of liquid been drink.
+
+This experiment can be related to the humanism by showing my daily rotines and gives me a clear view of informations about my liquid drinking. This could help me to improve my rotine to make it more healther and keep recording to see the change. To known if the change is working also keep records will let me have a think: Am I having too much coffee today? Do I need to have more water?
+
+I think this is a very useful and inspired experiment which gives me a clear idea and knowledge about the data collection and data drawing methods.

@@ -68,5 +68,52 @@ Step 2: Visualise
 - Work together to produce a collective data drawing
 - Invent your own visual language
 
+![ ](../assets/week-01/IMG_5032.jpeg)
+
+In this in class experiment, we use an abstract way to represents the data.
+
+The questions we chose are:
+- Average Screen time of the week
+- How many siblings do we have?
+- How much time do we spend on Design?
+- How much time do we spend on Design Assignments?
+- How many kind of food do we eat yesterday?
+
+We use very simple shapes to represents different questions. And this cause a lot uncertains. Such as the Screentime question, if the first person have an over average use on screen but draw a very small star. This will make the other people have to draw a smaller to keep the rule and overall diamention of the image. By using this random style of records creates a lot of randomness to the image and hard to tell what is what by just looking at the image. 
+
+Step 3: Decode
+
+- Swap your data drawing with another group
+- Work together to write responses:
+  - what can you learn about the people in this group?
+  - what surprised you?
+  - what questions do you have for them?
+  - can you tell who is who?
+
 ![ ](../assets/week-01/IMG_5029.jpeg)
+
+This is absolutly different to what we did, they have a well organised image presenting. They surprised me by the symbol they choose to record. By drawing a realistic image. I have question about what is meaning for the yellow glasses, it's really hard to connect it with the question. And I can not tell who is who because the questions are not connect or really related to each others.
+
+##
+
+## Independent Data Portraits
+
+### Overview
+Create your own data portrait: a hand-drawn visualisation of personal data
+collected over several days.
+
+### Step 1: Choose a topic
+
+Pick an aspect of your daily life that you are curious about but don't normally pay close attention to. It should be something you can observe and record by hand over the course of 4–5 days.
+
+**I choose to record the kinds and amount of liquids I drink in the week.**
+
+This is because I don't offen drink many water.
+
+### Step 2: Collect data by hand
+Carry a small notebook, use the back of a receipt, or whatever is convenient Record your observations as they happen.
+
+Don't rely on apps or digital tools. The act of noticing and writing things down is part of the exercise. 
+
+Be as specific and honest as you can. Include details that feel imperfect, ambiguous, or hard to categorise.
 

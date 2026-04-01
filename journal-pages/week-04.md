@@ -8,4 +8,8 @@ layout: default
 
 ## Class Communication
 
+### Artificial Intelligence
 
+_How do you use AI? How might AI change design?_
+
+I 

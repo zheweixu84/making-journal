@@ -6,19 +6,18 @@ layout: default
 
 [← Back to Home](../index.md)
 
-## Documentation 
+## Class Communications
 
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
+### Live Data
 
-## Images & Media
+At the start of the lesson, there're three example of live data:
+ - Dangling String (1995)
+ - Tele-Present Wind (2024)
+ - Listening Post (2002–2005)
 
-*Use the format below to embed images from your assets folder:*
+![ ](<../assets/week-03/Screenshot 2026-04-01 at 10.23.45 PM.png>)
 
-`![Alt text](../assets/week-01/your-image.jpg)`
-`*Your caption here*`
+![ ](<../assets/week-03/Screenshot 2026-04-01 at 10.24.07 PM.png>)
 
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
+![ ](<../assets/week-03/Screenshot 2026-04-01 at 10.24.28 PM.png>)
 
-## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*

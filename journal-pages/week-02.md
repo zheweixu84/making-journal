@@ -787,3 +787,8 @@ function drawHoverInfo(day) {
 
 ### Reflection
 
+In this experiment, I choose to use all the informations I collected on Experiment 1, because what I made for experiment 1 is more recording and do not have much flexibility for me to make the creative interations. I decide to use the AI to help me brainstorm, it gives me more than I asked. It gives a more completed outcome and plan for the coding, whether the mousemoving to change the show of the data or make the softdrink's symbol live is not been required.
+
+The user could not interact with my hand-drawn data, and it's hard to remember all types of the symbols, but on the code, it have a summery box at the bottom, it gives a more tidy and clear visual expernece for the user.
+
+By using AI to assist with this experiment, I learned how useful it is for a beginner, I think there's few things can be developed more with is data, like adding a conclusion of how much have been drink for different categories and is it over the suggestion or less than suggestion.

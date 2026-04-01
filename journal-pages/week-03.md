@@ -379,3 +379,171 @@ function draw() {
 
 [Screen Roacording for this experiement](https://youtube.com/shorts/-oFfIsCLvn0?feature=share)
 
+In this step I try few time and I keep outputting error and, I use Genmini to help me with fixing the bug and I asked to give me a code that can involve all the change.
+
+I think the vibe code is a powerful tool, it always give something surprised me and have a very high efficiency without any error with the code.
+
+##
+
+### Analogue Tools & Techniques
+
+##
+
+### Generative art
+
+From few example shown of generative art, I'm a bit confuesed
+
+Generative art refers to any art practice in which the artist cedes control to a system with functional autonomy that contributes to, or results in, a completed work of art.
+
+The difinition above is said by Philip Galanter, this clearly explained what is generative art. It means given the code or the system a rights or the power to think and create by it's self, similair to the generative intellengence in nowadays.
+
+##
+
+### Conditional Design
+
+ - Design method formulated by the graphic designers Luna Maurer, Jonathan Puckey, Roel Wouters and the artist Edo Paulus
+ - Cooperation within a ‘regulated’ process towards an unpredictable design or result
+ - Plays with chance, structured frameworks, and generative systems
+
+The **process** is the product.
+
+ - The most important aspects of a process are time, relationship and change.
+ - The process produces formations rather than forms.
+ - We search for unexpected but correlative, emergent patterns.
+ - Even though a process has the appearance of objectivity, we realize the fact that it stems from subjective intentions.
+
+**Logic** is our tool.
+
+ - Logic is our method for accentuating the ungraspable.
+ - A clear and logical setting emphasizes that which does not seem to fit within it.
+ - We use logic to design the conditions through which the process can take place.
+ - Design conditions using intelligible rules.
+ - Avoid arbitrary randomness. Difference should have a reason.
+ - Use rules as constraints. Constraints sharpen the perspective on the process and stimulate play within the limitations.
+
+The **input** is our material.
+
+ - Input engages logic and activates and influences the process.
+ - Input should come from our external and complex environment: nature, society and its human interactions.
+
+My own understand about the Conditional Design is basically design under rules but keep the creativety and randomness tot he outcome. Such as the "3D Straw Structure" the limitation is the amount of the straw and do it one by one. But the creeativity and the ramdomness is still there which is where the straw will be going next or will the structure stand.
+
+##
+
+### Data Protocols
+
+In pairs, design a data protocol: a set of rules for translating a live data source.
+
+Your protocol must specify:
+
+ - Source: what live data to observe (e.g. sounds in the room, a live transport tracker on your phone)
+ - Frequency: how often to check (e.g. every 10 seconds, every minute)
+ - Mapping: how to record observations (e.g. marks, shapes, actions)
+
+Write your protocol as a clear set of written instructions on a sheet of paper. Someone else in this room should be able to follow your instructions and produce an outcome over a short period of time.
+
+![ ](../assets/week-03/IMG_5485.jpeg)
+
+What we made is:
+
+ - Source: number of people on phone in the room
+ - Frequency: record every 30 seconds
+ - Mapping: draw a stickman on phone
+
+_**In my opinion we didn't make the mapping well, the stickmans is a simple but still complex if the data group is large especially the source is in the whole room.**_
+
+Swap your protocol with another pair.
+
+Follow their instructions without asking questions. Just interpret the rules as written.
+
+![ ](../assets/week-03/IMG_5488.jpeg)
+
+We are confused when we get this information, and we ask the group that make this up. They said the source is the languague that been spoken. I don't think this is a great frequency, everytime a member change doesn't means that every one is keep talking. Or if I have both chinese and english in one sentence, how should I record it.
+
+There's not any surprised in this result. The only suprise might be I though my group memebr is chinese for the whole year and now I know they are korean.
+
+##
+
+## Independent Study - Week 3
+
+Independent Study: Live Data Visualisation
+Overview
+
+Building on the in-class activities, create a work that engages with live data (data that is ongoing and changing). You can either take a digital approach, or an analogue/physical approach.
+
+Option A: Digital
+
+Build a p5.js sketch that responds to live data.
+
+Use an API to bring external data into your sketch. The Open-Meteo APILinks to an external site. (weather) and the ISS Location APILinks to an external site. (International Space Station position) are good examples, as both are free and require no account or API key. However, for this task you must find your own API to work with.
+
+Consider:
+
+How do you map data values to visual properties (colour, size, position, shape, movement)?
+What does the visualisation reveal about the data that numbers alone cannot?
+How does the sketch change over time? What is the relationship between the data's rhythm and the visual rhythm?
+
+Use the p5.js referenceLinks to an external site. and tutorialsLinks to an external site. to learn new techniques. You could also use LLMs to help you build features beyond what was covered in class. Make sure to document your process and explain what you learn.
+
+##
+
+I choose option A to do this Live Data Experiment
+
+While I make this experiment I was viewing RedNote on my phone and I view a video telling about the bitcoins. And I ask the Genmini if this would be a good choice for the requirments.
+
+The CoinDesk Bitcoin API provides an accessible, public feed of real-time financial data without requiring complex account setups or API keys. Because cryptocurrency markets are highly volatile and never close, this specific stream provides a constantly shifting, high-frequency data set that is ideal for driving dynamic visual movement in a live p5.js sketch.
+
+Because I keep struggleing with the code writing, so I still asked for help to Genmini. 
+
+The first version of code I gives me and the preview is keep loading. And then I asked about the issue, it gives me a simple version but keep the same function.
+
+```
+let financeData;
+// New, highly reliable API URL for Bitcoin price in USD
+let url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd";
+let animatedSize = 0;
+
+function preload() {
+  // This will pull the live data before the sketch begins
+  financeData = loadJSON(url);
+}
+
+function setup() {
+  createCanvas(400, 400);
+  
+  // Let's look at the console to see the new structure!
+  console.log(financeData);
+}
+
+function draw() {
+  background(20, 24, 35);
+  
+  // CoinGecko's structure is much simpler: financeData.bitcoin.usd
+  let btcPrice = financeData.bitcoin.usd;
+  
+  // Let's map a huge price number down to canvas pixels
+  // Assuming Bitcoin stays roughly between $40k and $100k
+  let mappedDiameter = map(btcPrice, 40000, 100000, 50, 300);
+  
+  // Smoothly animate to that size so it's not a static jump
+  animatedSize = lerp(animatedSize, mappedDiameter, 0.05);
+  
+  // Visual output
+  noStroke();
+  fill(255, 153, 0, 150); // Bitcoin Orange with some transparency
+  circle(width / 2, height / 2, animatedSize);
+  
+  // Text readout
+  fill(255);
+  textAlign(CENTER);
+  textSize(16);
+  text(`Live BTC (USD): $${btcPrice}`, width / 2, height - 30);
+}
+```
+![ ](<../assets/week-03/Screenshot 2026-04-02 at 3.00.18 AM.png>)
+
+[Screen Roacording for this experiement](https://youtube.com/shorts/TdZlrYN4ZYE?feature=share)
+
+I took a digital approach, using the CoinGecko API to track the live price of Bitcoin, since the internet felt like the best place to capture such fast-moving data.  I use an LLM helped me smooth out the code and change to a new API when my first choice wouldn't load properly. Through this, I learned how to read raw data structures and turn massive numbers into clean visual elements. Instead of just showing a boring number on a screen. I mapped the price to the size of a central orange circle.  Using a smooth animation trick, the shape gently "breathes" and pulses as the market fluctuates, capturing the restless, collective energy of global traders in real time. Although the final animation is much more gentle as the time I record on the image is not long enough, I believe that as the time adds, the effect will be better shown.
+
+I think this could relate to David Bowen’s Tele-Present Wind from class. While he translated invisible Martian wind into swaying grass, I translated invisible market data into the movement of a digital shape. If I had more time, I would love to add a sound feature that triggers different tones when the market spikes or drops. This experiment taught me that data isn't just numbers on paper. It's a raw material that I can transform into art.

@@ -146,7 +146,53 @@ I think I didn't perfectly match the image it given, becauser the origin image i
 
 ### Variables
 
+ - Variables are how we store data in our program. 
+ - A variable has a name and a value.
 
+We use "**let**" to create one.  
+Change the value of size and run the program again.
 
+```
+let size = 80;
 
+function setup() {
+  createCanvas(400, 400);
+}
 
+function draw() {
+  background('white');
+  fill('red');
+  circle(200, 200, size);
+}
+```
+![alt text](<../assets/week-02/Screenshot 2026-04-01 at 4.18.14 PM.png>)
+
+![alt text](<../assets/week-02/Screenshot 2026-04-01 at 4.18.22 PM.png>)
+
+I change the size value from 80 to 200 and the size of the circle is changing.
+
+Because the value named : "size". And it been repalced as "d" which is the diameter of the circle.
+
+##
+
+### Updating Variables
+
+ - The funcrion "draw()" will run 60 times per seconds,
+
+ - Because "draw()" runs over and over, we can change a variable in each frame.
+
+ ```
+ let xPos = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background('white');
+  fill('red');
+  circle(xPos, 200, 80);
+  xPos = xPos + 1;
+}
+```
+<video controls src="../assets/week-02/Screen Recording 2026-04-01 at 4.27.02 PM.mov" title="Title"></video>

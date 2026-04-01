@@ -195,4 +195,7 @@ function draw() {
   xPos = xPos + 1;
 }
 ```
-<video controls src="../assets/week-02/Screen Recording 2026-04-01 at 4.27.02 PM.mov" title="Title"></video>
+[Watch the video](https://youtu.be/_2tKOkOmvTc)
+
+
+

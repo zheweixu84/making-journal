@@ -227,4 +227,6 @@ Consider:
 
 ![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.17.52 PM.png>)
 
+The data could shown the The Inter-Regional Connection, the trains connection between the cityies.
 
+This data could answer the question like the route research.

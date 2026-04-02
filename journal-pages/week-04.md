@@ -225,4 +225,6 @@ Consider:
  - What biases or gaps are present?
  - Who collected this data, and for what purpose?
 
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.17.52 PM.png>)
+
 

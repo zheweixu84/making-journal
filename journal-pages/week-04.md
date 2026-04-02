@@ -159,3 +159,6 @@ Use the chat to ask questions about your sources. Try prompts like:
  - “What would someone who disagrees with the ideas in my sources argue?”
 
 Follow up on anything interesting. Ask it to elaborate, challenge it, or push in a different direction.
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 3.25.16 PM.png>)
+

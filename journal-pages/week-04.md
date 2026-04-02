@@ -162,3 +162,49 @@ Follow up on anything interesting. Ask it to elaborate, challenge it, or push in
 
 ![ ](<../assets/week-04/Screenshot 2026-04-02 at 3.25.16 PM.png>)
 
+I start with the first question of: "If my sources were documentation for a design project, what would the final outcome be". And the notebook gives me few options that I can have for the final outcome. It includes two types of final outcome, digital portfolio and also element archicture.
+
+I follow it up with a question: "I want my final outcome is in a abstract way, combine both digitlise visual and physical form".
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 3.31.29 PM.png>)
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 3.33.22 PM.png>)
+
+The chat give me a clear strp and what should I do to archieve my reqirement about the abstract outcome.
+
+This notebook could help the designer to brainstorm quicker and precision. Compare to other language model, Notebook have a larger limitation on the number of resouce, it's more likely a AI that will read and finalising all the sources. The others have some issues like misunderstanding the requirments or mixed up the information provided after few times. In Notebook, the source will be uploaded and save in the server. The AI will be stick to the data I provided.
+
+4: Audio Overview
+
+Find the Audio Overview option in your notebook and generate it.
+
+Once it’s ready, listen with headphones.
+
+While you listen, make notes:
+
+ - What did it pick up on that surprised you?
+ - What did it get wrong?
+ - How does hearing your work discussed feel different from reading the chat responses?
+
+I try two types of Audio Overview, the brief version is focusing mostly on the conditional design which is not the focus point I required in the text question.
+
+And the deep dive version is quite surprised me, it presents the overview in a way similar to radio and have two host keep having conversations around the question. It given out more examples about the project. 
+
+Hearing the work discussed make me understand and remember the information easier and quicker. It's more similar to I am listening to a lecture or involves in a studio activity.
+
+##
+
+## Independent Study - Week 4
+
+### Overview
+
+Choose a public dataset about life in Aotearoa New Zealand and use cloud-based AI tools to explore, interpret, and represent the data. The challenge is to go beyond a single prompt, working through sustained dialogue with the AI, directing its decisions, and critically evaluating its outputs.
+
+##
+
+### Step 1: Find a Dataset
+
+Browse the open data catalogue at catalogue.data.govt.nzLinks to an external site. and find a dataset that interests you. Look for something with a downloadable CSV file that is small enough to upload into a cloud AI tool (aim for under 10MB, or a few thousand rows).
+
+Choose something you find genuinely interesting. The data should relate to a real aspect of life in Aotearoa that you would want to explore further.
+

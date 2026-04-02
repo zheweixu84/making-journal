@@ -230,3 +230,349 @@ Consider:
 The data could shown the The Inter-Regional Connection, the trains connection between the cityies.
 
 This data could answer the question like the route research.
+
+This data was likely compiled by a transport authority or government body—most likely Auckland Transport (AT) in collaboration with the Waikato Regional Council.
+
+It was collected for Geographic Information Systems (GIS) and infrastructure planning. Its purpose is to map out exact physical routes and platform-to-platform variations to manage rail assets, schedule trains safely without overlapping, and provide digital line geometries for transit mapping apps.
+
+##
+
+### Step 3: Design Multiple Representations
+
+Ask the AI to produce a visualisation of the data, but don't accept the first output. Direct the AI: specify the form, the visual encoding, the audience, the story you want to tell. Iterate through at least three distinctly different representations of the same data. These could be code-based (e.g. p5.js or HTML), textual, visual, or even prompts for physical/analogue translations.
+
+For each version, make deliberate design decisions about what to change. You might vary the format (chart, map, interactive page, narrative text), the visual encoding (colour, size, position, shape), or what subset of the data to foreground.
+
+My first set of question is: produce a visualisation of the data, and specify the form.
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.40.44 PM.png>)
+
+Secdond question: I need the visual encoding and shwoing the audience and include a related story about the chart.
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.42.44 PM.png>)
+
+My thired requirment will be: Give a p5.js code to promote a outcome for the audience.
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.45.55 PM.png>)
+
+I asked to add more interactive to the chart.
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.48.41 PM.png>)
+
+This version adds a sort on the upper right.
+
+I will ask to add more texture and decroations on to the chart.
+
+![ ](<../assets/week-04/Screenshot 2026-04-02 at 4.50.54 PM.png>)
+
+And here is the code for this final version:
+```
+let routes = [
+  { name: 'HUIA (Te Huia)', len: 140.0, desc: 'A massive regional bridge connecting Hamilton and Auckland.' },
+  { name: 'STH (Southern Line)', len: 45.0, desc: 'The backbone of Auckland\'s heavy rail commuter network.' },
+  { name: 'WEST (Western Line)', len: 28.0, desc: 'Ties the western outer suburbs securely to the city center.' },
+  { name: 'EAST (Eastern Line)', len: 25.0, desc: 'Provides dedicated access through major industrial and residential hubs.' },
+  { name: 'ONE (Onehunga Line)', len: 9.0, desc: 'A short, agile urban shuttle branch line.' }
+];
+
+let animatedWidths = [0, 0, 0, 0, 0];
+let selectedIndex = -1;
+let hoveredIndex = -1;
+let sortByLength = true;
+
+function setup() {
+  createCanvas(800, 540);
+  textAlign(LEFT, CENTER);
+}
+
+function draw() {
+  // 1. Decorative Textured Background
+  background(245, 247, 250); 
+  drawBackgroundGrid(); // Subtle blueprint-style grid texture
+  
+  // Header Title
+  fill(44, 62, 80);
+  textSize(22);
+  textStyle(BOLD);
+  text("Bridging the Scale: Regional vs. Urban Rail Lengths", 40, 40);
+  
+  textSize(14);
+  textStyle(NORMAL);
+  fill(127, 140, 141);
+  text("Click to lock a line's details. Use the button on the right to toggle view.", 40, 70);
+  
+  // Interactive Toggle Button (Top Right)
+  drawToggleButton();
+  
+  let startY = 140;
+  let barSpacing = 55;
+  let maxBarWidth = 430;
+  let maxLen = 140.0;
+  
+  hoveredIndex = -1;
+  
+  // Prepare list based on sorting state
+  let displayList = [...routes];
+  if (!sortByLength) {
+    displayList.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  
+  for (let i = 0; i < displayList.length; i++) {
+    let r = displayList[i];
+    let y = startY + i * barSpacing;
+    let targetWidth = map(r.len, 0, maxLen, 0, maxBarWidth);
+    
+    // Smooth animation on load
+    animatedWidths[i] = lerp(animatedWidths[i], targetWidth, 0.1);
+    
+    // Collision detection for hovering
+    let isHovered = (mouseX > 200 && mouseX < 200 + targetWidth && mouseY > y - 15 && mouseY < y + 15);
+    
+    // Original index mapping back for persistent selection
+    let origIndex = routes.indexOf(r);
+    let isSelected = (origIndex === selectedIndex);
+    
+    if (isHovered) hoveredIndex = i;
+    
+    // --- DRAW THE TEXTURED BAR ---
+    let currentW = animatedWidths[i];
+    
+    if (isSelected || isHovered) {
+      // Drop Shadow for active elements
+      fill(0, 0, 0, 20);
+      rect(202, y - 13, currentW, 30, 4);
+      
+      fill(isSelected ? color(41, 128, 185) : color(52, 152, 219));
+    } else {
+      fill(189, 195, 199);
+    }
+    
+    noStroke();
+    rect(200, y - 15, currentW, 30, 4);
+    
+    // Diagonal Line Texture inside the bars
+    drawBarTexture(200, y - 15, currentW, 30, isSelected || isHovered);
+    
+    // Train line label
+    fill(44, 62, 80);
+    textStyle(BOLD);
+    textSize(14);
+    text(r.name, 40, y);
+    
+    // Base static text at the end of the bar
+    textStyle(NORMAL);
+    fill(127, 140, 141);
+    text(r.len + " km", 215 + targetWidth, y);
+  }
+  
+  // 2. Decorative "Railway Track" Axis
+  drawRailwayTrack(200, 110, 390);
+  
+  // Draw Custom Tooltip that follows cursor on hover
+  if (hoveredIndex !== -1) {
+    let r = displayList[hoveredIndex];
+    drawTooltip(r.name, r.len);
+  }
+  
+  // Determine active display data for the bottom info panel
+  let activeIndex = -1;
+  if (hoveredIndex !== -1) {
+    activeIndex = routes.indexOf(displayList[hoveredIndex]);
+  } else if (selectedIndex !== -1) {
+    activeIndex = selectedIndex;
+  }
+  
+  // 3. Draw Bottom Detail Information Panel with Decorations
+  drawInfoPanel(activeIndex);
+}
+
+// Decoration: Blueprint Grid Texture for Background
+function drawBackgroundGrid() {
+  stroke(220, 225, 230, 100);
+  strokeWeight(1);
+  for (let x = 0; x < width; x += 40) line(x, 0, x, height);
+  for (let y = 0; y < height; y += 40) line(0, y, width, y);
+}
+
+// Decoration: Diagonal stripe pattern inside bars
+function drawBarTexture(x, y, w, h, isActive) {
+  push();
+  // Create a mask constraint so stripes don't bleed out of the rounded bars
+  stroke(255, 255, 255, isActive ? 80 : 40);
+  strokeWeight(2);
+  
+  for (let i = -h; i < w; i += 10) {
+    let x1 = x + i;
+    let y1 = y;
+    let x2 = x + i + h;
+    let y2 = y + h;
+    
+    // Only draw if line is within the horizontal bounds of the current width
+    if (x1 >= x && x1 <= x + w && x2 >= x && x2 <= x + w) {
+      line(x1, y1, x2, y2);
+    }
+  }
+  pop();
+}
+
+// Decoration: Custom Drawn Railway Tracks for Axis
+function drawRailwayTrack(x, y1, y2) {
+  push();
+  // Draw the wooden sleepers (cross-ties)
+  stroke(141, 110, 99); // Woody Brown
+  strokeWeight(4);
+  for (let i = y1; i <= y2; i += 12) {
+    line(x - 8, i, x + 8, i);
+  }
+  
+  // Draw the two steel rails
+  stroke(127, 140, 141); // Steel Gray
+  strokeWeight(2);
+  line(x - 4, y1, x - 4, y2);
+  line(x + 4, y1, x + 4, y2);
+  pop();
+}
+
+// Decoration: Riveted Toggle Button
+function drawToggleButton() {
+  let bx = 600, by = 40, bw = 160, bh = 30;
+  let over = (mouseX > bx && mouseX < bx + bw && mouseY > by && mouseY < by + bh);
+  
+  fill(over ? 225 : 236, 240, 241);
+  stroke(189, 195, 199);
+  strokeWeight(1);
+  rect(bx, by, bw, bh, 4);
+  
+  // Small "screws/rivets" in corners for mechanical look
+  fill(127, 140, 141);
+  noStroke();
+  circle(bx + 5, by + 5, 2);
+  circle(bx + bw - 5, by + 5, 2);
+  circle(bx + 5, by + bh - 5, 2);
+  circle(bx + bw - 5, by + bh - 5, 2);
+  
+  fill(44, 62, 80);
+  textSize(12);
+  textStyle(BOLD);
+  textAlign(CENTER, CENTER);
+  text(sortByLength ? "Sort: By Scale" : "Sort: Alphabetical", bx + bw / 2, by + bh / 2);
+  textAlign(LEFT, CENTER); // Reset
+}
+
+// Function to draw dynamic cursor tooltips
+function drawTooltip(name, len) {
+  let tw = 130;
+  let th = 25;
+  fill(44, 62, 80, 230); // Semi-transparent dark box
+  noStroke();
+  rect(mouseX + 15, mouseY - 15, tw, th, 4);
+  
+  fill(255);
+  textSize(11);
+  textStyle(BOLD);
+  text(name + " | " + len + "km", mouseX + 25, mouseY - 2);
+}
+
+// Decoration: Patterned Bottom Information Panel
+function drawInfoPanel(idx) {
+  textSize(14);
+  let boxX = 40, boxY = 440, boxW = 720, boxH = 65;
+  
+  if (idx !== -1) {
+    let r = routes[idx];
+    
+    // Shadow
+    fill(0, 0, 0, 15);
+    noStroke();
+    rect(boxX + 2, boxY + 2, boxW, boxH, 6);
+    
+    fill(255);
+    stroke(41, 128, 185);
+    strokeWeight(2);
+    rect(boxX, boxY, boxW, boxH, 6);
+    
+    // Mechanical line border on the left side of the card
+    stroke(52, 152, 219, 100);
+    line(boxX + 10, boxY + 5, boxX + 10, boxY + boxH - 5);
+    
+    noStroke();
+    fill(44, 62, 80);
+    textStyle(BOLD);
+    text(r.name + " (" + r.len + " km)", boxX + 30, boxY + boxH / 2);
+    
+    textStyle(NORMAL);
+    fill(52, 73, 94);
+    text(r.desc, boxX + 260, boxY + boxH / 2);
+    
+  } else {
+    fill(240, 243, 244);
+    stroke(189, 195, 199);
+    strokeWeight(1);
+    rect(boxX, boxY, boxW, boxH, 6);
+    
+    noStroke();
+    fill(127, 140, 141);
+    textStyle(ITALIC);
+    text("Hover or click a transit bar to inspect infrastructure scope.", boxX + 30, boxY + boxH / 2);
+  }
+}
+
+// Mouse interaction listeners
+function mousePressed() {
+  if (mouseX > 600 && mouseX < 760 && mouseY > 40 && mouseY < 70) {
+    sortByLength = !sortByLength;
+    animatedWidths = [0, 0, 0, 0, 0]; // Reset animation on sort toggle
+    return;
+  }
+  
+  let startY = 140;
+  let barSpacing = 55;
+  let maxBarWidth = 430;
+  let maxLen = 140.0;
+  
+  let displayList = [...routes];
+  if (!sortByLength) {
+    displayList.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  
+  for (let i = 0; i < displayList.length; i++) {
+    let r = displayList[i];
+    let y = startY + i * barSpacing;
+    let targetWidth = map(r.len, 0, maxLen, 0, maxBarWidth);
+    
+    if (mouseX > 200 && mouseX < 200 + targetWidth && mouseY > y - 15 && mouseY < y + 15) {
+      let origIndex = routes.indexOf(r);
+      selectedIndex = (selectedIndex === origIndex) ? -1 : origIndex;
+      return;
+    }
+  }
+  
+  if (mouseY < 440) selectedIndex = -1;
+}
+```
+##
+
+### Step 4: Critically Evaluate and Reflection
+
+Look at the representations you've produced and reflect on the AI's design choices:
+
+ - What did the AI default to? (e.g. bar charts, blue colour schemes, generic titles)
+ - What did you have to override or redirect?
+ - What assumptions did the AI make about the data or the audience?
+ - Which representation is the most interesting, and why?
+ - What would you do differently if you were building this without AI?
+ - And more...
+
+As I work through this experiment, the dataset outlines passenger rail routes in New Zealand's Auckland and Waikato regions, highlighting both the capabilities and the limitations of using artificial intelligence as a design tool. When first tasked with visualising the data, the AI defaulted to a highly clinical approach: a standard horizontal bar chart measuring average line lengths in a generic blue colour scheme. It assumed a strictly objective audience of transit analysts interested in pure numbers. It failed to intuitively realise that transportation data is inherently spatial and tied to human lived experiences, defaulting to a basic statistical graph rather than leaning into a map or highly creative representation.
+
+To pull the visualisation away from this sterile baseline, human direction was necessary to override the defaults. I had to explicitly direct the AI to build layers of interactivity—such as hover states, dynamic tooltips, and click locks—and later to add physical textures, like diagonal stripes, and a skeuomorphic vertical axis styled like a train track. This final, decorated representation became the most interesting artifact because it bridged abstract data with a tangible theme. The visual of the tracks reminds the viewer of the heavy machinery and physical infrastructure being represented, moving it from a cold graph to a functional interface that invites play and inspection.
+
+However, the process of collaborating with AI also surfaces significant gaps. The AI treated data as objective truth, failing to account for the heavy political debates surrounding the Te Huia regional line or the everyday struggles of commuters. Had I been building this without AI, I likely would have prioritised using actual geographic shapefiles on an interactive map of the region rather than reducing complex physical routes to simple aggregated bar lengths. While the AI acted as an incredible "force multiplier"—scaffolding complex interactive code in seconds—it lacked the human capacity for domain-driven, creative inspiration.
+
+Catherine D'Ignazio and Lauren Klein's principles in Data Feminism further challenge this dataset by forcing us to ask who or what is missing from the frame. While this file fastidiously details physical tracks, it renders the commuters themselves invisible. Who do these transit lines prioritise, and which communities are stranded or bypassed by these routes? Similarly, Ani Mikaere's framing of data as a strategic asset for Māori development informs how we should read this dataset. Are these transit lines crossing ancestral lands with the consent of local iwi and hapū? Do they serve to economically empower Māori communities or connect centralised urban economic centres?
+
+Ultimately, different representations of the same data fundamentally change what a viewer understands. A static bar chart implies simple comparisons of physical footprints. In contrast, an interactive chart forces users to actively engage with the purpose of the transit corridors. Moving forward, given more time, I would develop this further by mapping the actual physical coordinates to highlight coverage gaps. This whole design process demonstrated that while AI is an incredibly powerful drafting tool, it also requires continuous human intervention to ensure the data remains aligned with the social, political, and human realities it attempts to represent.
+
+_This part of the words is under help with formating and proofreading by Genmini_
+
+

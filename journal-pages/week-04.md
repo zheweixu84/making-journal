@@ -208,3 +208,21 @@ Browse the open data catalogue at catalogue.data.govt.nzLinks to an external sit
 
 Choose something you find genuinely interesting. The data should relate to a real aspect of life in Aotearoa that you would want to explore further.
 
+I choose a "Train Route" data for this experiment.
+
+[Data Website](https://catalogue.data.govt.nz/dataset/train-route94/resource/1904d212-01c2-4b32-befd-11d758e56c18)
+
+##
+
+### Step 2: Understand the Data
+
+Upload your CSV into a cloud AI tool (e.g. CoPilot, Gemini, NotebookLM, ChatGPT) and have a conversation about it. Ask the AI to explain what is in the dataset: what the columns mean, what the values represent, how much data there is, and what is missing or incomplete.
+
+Consider:
+
+ - What stories might this data contain?
+ - What questions could it answer?
+ - What biases or gaps are present?
+ - Who collected this data, and for what purpose?
+
+

@@ -14,7 +14,7 @@ _How do you use AI? How might AI change design?_
 
 I always use AI to help me with the brain storming process and profread my writing. For some complex and difficult questions, I will asked AI to halp me understand and break up the difficulties. I think AI could speed up the design process, as the AI is getting more powerful and smarter, AI could do more works and the key for the designer is the idea and creaticity.
 
-##
+----
 
 ### Agentive AI
 

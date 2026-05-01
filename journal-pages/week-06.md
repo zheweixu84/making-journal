@@ -7,7 +7,7 @@ layout: default
 [← Back to Home](../index.md)
 
 ## In-Class Activities 
-
+----
 ### Data Exploration
 1. Data Exploration 
 

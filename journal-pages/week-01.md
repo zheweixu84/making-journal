@@ -4,9 +4,13 @@ layout: default
 
 # Week 01
 
+----
+
 [← Back to Home](../index.md)
 
 ## Class Comunications 
+
+----
 
 ### Data and Data Visualisation
 
@@ -27,7 +31,7 @@ Datas are digitalised a lot in nowadays. The smartwatch will record the health d
 
 And datafication is a process that transform the unvisualised things into a visible datasets.
 
-##
+----
 
 ### Data as a Creative Material
 
@@ -49,7 +53,7 @@ It using a simplest way to record, by using circle stickers the data is visualis
 
 At the same time, it is a playful experience in public space. I think there're some key features that need to be includes while making a project like "*Lets Play with Data*". Which are Eye-catching colors; Trending topics; Fun interactions.
 
-##
+----
 
 ### Data Humanism
 
@@ -57,9 +61,12 @@ The video recording of Giorgia Lupi on how to visualizes life through data. I th
 
 This experiment or the video notice me that I can use similair way to record something that I haven't always noticed, and this is also a effective way to create a habit of recording my life using a creative and abtract tool.
 
-##
+----
 
 ## Group Data Portraits
+
+----
+
 Step 1: Collect
 - As a group, devise a short questionnaire
 - Answer individually, record your own answers anonymously
@@ -94,9 +101,11 @@ Step 3: Decode
 
 This is absolutly different to what we did, they have a well organised image presenting. They surprised me by the symbol they choose to record. By drawing a realistic image. I have question about what is meaning for the yellow glasses, it's really hard to connect it with the question. And I can not tell who is who because the questions are not connect or really related to each others.
 
-##
+----
 
 ## Independent Data Portraits
+
+----
 
 ### Overview
 Create your own data portrait: a hand-drawn visualisation of personal data

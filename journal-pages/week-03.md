@@ -4,9 +4,13 @@ layout: default
 
 # Week 03
 
+----
+
 [← Back to Home](../index.md)
 
 ## Class Communications
+
+----
 
 ### Live Data
 
@@ -29,7 +33,7 @@ At the start of the lesson, there're three example of live data:
 
 The three example give me a brief idea about what is live data, and how can I presents the live data. I see a fascinating push to pull data out of the abstract digital world and ground it in our physical reality. These examples shows that data can be a living, breathing thing. By translating live information into movement, sound, and physical form.
 
-##
+----
 
 ### Asking the Internet Questions
 
@@ -50,7 +54,7 @@ Some things can do with the command line:
  - Run programs
  - **Ask the internet for data**
 
-##
+----
 
 ### Navigating Files & Folders
 
@@ -58,7 +62,7 @@ Some things can do with the command line:
 
 ![ ](<../assets/week-03/Screenshot 2026-04-02 at 12.36.17 AM.png>)
 
-##
+----
 
 ### Creating a File
 
@@ -68,7 +72,7 @@ Some things can do with the command line:
 
 ![ ](<../assets/week-03/Screenshot 2026-04-02 at 12.40.06 AM.png>)
 
-##
+----
 
 ### Demo 1: ASCII Animations
 
@@ -76,7 +80,7 @@ Some things can do with the command line:
 
 [Screen Roacording for this experiement](https://youtu.be/Gtfxx3xwggs)
 
-##
+----
 
 ### Demo 2: Weather
 
@@ -84,7 +88,7 @@ Some things can do with the command line:
 
 [Screen Roacording for this experiement](https://youtu.be/zRek5wLfmZk)
 
-##
+----
 
 ### Demo 3: Filtering Live Data
 
@@ -92,7 +96,7 @@ Some things can do with the command line:
 
 [Screen Roacording for this experiement](https://youtu.be/giS21bq3QTc)
 
-##
+----
 
 ### Demo 4: Raw Data (JSON)
 
@@ -100,7 +104,7 @@ Some things can do with the command line:
 
 ![ ](<../assets/week-03/Screenshot 2026-04-02 at 1.16.50 AM.png>)
 
-##
+----
 
 ### Explore with curl
 
@@ -123,7 +127,7 @@ Using your terminal and the GitHub repos for wttr.in and the Free Dictionary API
 ![ ](<../assets/week-03/Screenshot 2026-04-02 at 1.32.40 AM.png>)
 Didn't get it.
 
-##
+----
 
 ### Application Programming Interface (API)
 
@@ -135,7 +139,7 @@ When you used curl with wttr.in, you were already using an API: you sent a reque
 
 Instead of reading the response in a terminal, the code can read it and do something with it.
 
-##
+----
 
 ### Using an API in p5.js
 
@@ -179,7 +183,7 @@ function draw() {
 
 This is what I get paste the code into p5.js
 
-##
+----
 
 ### Drawing with Weather
 
@@ -217,7 +221,7 @@ I got the same image drawing out, and I notice there's a console at the bottom o
 
 ![ ](<../assets/week-03/Screenshot 2026-04-02 at 1.51.10 AM.png>)
 
-##
+----
 
 ### Using the Console
 
@@ -225,7 +229,7 @@ I got the same image drawing out, and I notice there's a console at the bottom o
 
 Now I understand what the shapes are meaning, the higher the tempureture is the larger the circle will be. This can make the user easier see the relations between the different informations.
 
-##
+----
 
 ### Live Updates
 
@@ -241,7 +245,7 @@ The International Space Station orbits Earth at ~28,000 km/h. Its position chang
 
 These two screenshots are only in 10seconds and some of the informations are change.
 
-##
+----
 
 ### ISS Tracker
 
@@ -286,7 +290,7 @@ function draw() {
 
 And this information of Lat and Lon is also keep changing.
 
-##
+----
 
 ### Simulating Live Data
 
@@ -383,11 +387,11 @@ In this step I try few time and I keep outputting error and, I use Genmini to he
 
 I think the vibe code is a powerful tool, it always give something surprised me and have a very high efficiency without any error with the code.
 
-##
+----
 
 ### Analogue Tools & Techniques
 
-##
+----
 
 ### Generative art
 
@@ -397,7 +401,7 @@ Generative art refers to any art practice in which the artist cedes control to a
 
 The difinition above is said by Philip Galanter, this clearly explained what is generative art. It means given the code or the system a rights or the power to think and create by it's self, similair to the generative intellengence in nowadays.
 
-##
+----
 
 ### Conditional Design
 
@@ -428,7 +432,7 @@ The **input** is our material.
 
 My own understand about the Conditional Design is basically design under rules but keep the creativety and randomness tot he outcome. Such as the "3D Straw Structure" the limitation is the amount of the straw and do it one by one. But the creeativity and the ramdomness is still there which is where the straw will be going next or will the structure stand.
 
-##
+----
 
 ### Data Protocols
 
@@ -462,9 +466,11 @@ We are confused when we get this information, and we ask the group that make thi
 
 There's not any surprised in this result. The only suprise might be I though my group memebr is chinese for the whole year and now I know they are korean.
 
-##
+----
 
 ## Independent Study - Week 3
+
+----
 
 Independent Study: Live Data Visualisation
 Overview
@@ -485,7 +491,7 @@ How does the sketch change over time? What is the relationship between the data'
 
 Use the p5.js referenceLinks to an external site. and tutorialsLinks to an external site. to learn new techniques. You could also use LLMs to help you build features beyond what was covered in class. Make sure to document your process and explain what you learn.
 
-##
+----
 
 I choose option A to do this Live Data Experiment
 

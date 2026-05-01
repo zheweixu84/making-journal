@@ -4,9 +4,13 @@ layout: default
 
 # Week 02
 
+----
+
 [← Back to Home](../index.md)
 
 ## Class Communications
+
+----
 
 ### Interactivity in These Project
 
@@ -17,9 +21,11 @@ The projects shown from the last week is been rediscussed.
 - The experience of engaging with the data is part of the meaning
 - Physical materials and space shape how people encounter information 
 
-##
+----
 
 ## Experiment 2 - Interativity
+
+----
 
 ### From Physical to Digital
 
@@ -27,7 +33,7 @@ We will use p5.js to do some data drawings and interactive. It is a JavaScript l
 
 I can adds buttons, sliders, input fields, dropdown menus to my drawings. By advanced coding techniques, I can even make some particle effects.
 
-##
+----
 
 ### Setting up and learn the basics
 
@@ -50,7 +56,7 @@ function draw() {
 ```
 ![ ](<../assets/week-02/Screenshot 2026-04-01 at 2.55.11 PM.png>)
 
-##
+----
 
 ### Starting Experiment
 
@@ -97,7 +103,7 @@ This code will be looking like:
 
 ![ ](<../assets/week-02/Screenshot 2026-04-01 at 3.18.16 PM.png>)
 
-##
+----
 
 ### Reference
 
@@ -107,7 +113,7 @@ There's a whole page of reference about the p5.js coding, it explain all the fun
 
 We go through some fundamental functions such as circle, fill, StrokeWeight, Background. 
 
-##
+----
 
 ### Experimentation
 
@@ -140,9 +146,11 @@ I found that by changing the order of the instruction, the image will change, su
 
 I think I didn't perfectly match the image it given, becauser the origin image is not a perfect square and the canvas I create is a perfect square.
 
-##
+----
 
 ## Coding funamentals
+
+----
 
 ### Variables
 
@@ -173,7 +181,7 @@ I change the size value from 80 to 200 and the size of the circle is changing.
 
 Because the value named : "size". And it been repalced as "d" which is the diameter of the circle.
 
-##
+----
 
 ### Updating Variables
 
@@ -223,7 +231,7 @@ function draw() {
 
 The size of the circle is getting larger by the time. And fill the whole canvas at last.
 
-##
+----
 
 ### Built-In Variables
 
@@ -248,7 +256,7 @@ What happens if you remove the background() line?
 
 I remove the background line, and the circle will not be removed and all the circle been draw will be stay on the canvas. This is because the draw is repeated 60 times a sec. The background is under the draw so every time will recreate the background.
 
-##
+----
 
 ### Condiutionals
 
@@ -277,7 +285,7 @@ function draw() {
 
 [Screen Roacording for this experiement](https://youtube.com/shorts/3rkVYw7k1Vc?feature=share)
 
-##
+----
 
 ### DOM Elements
 
@@ -289,7 +297,7 @@ p5.js can create DOM elements — buttons, sliders, text inputs — and connect 
 
 These are the digital equivalents of the physical interactions we looked at earlier.
 
-##
+----
 
 ### Button
 
@@ -321,7 +329,7 @@ function changeColour() {
 
 [Screen Roacording for this experiement](https://youtube.com/shorts/Cn2X8Xch5zo?feature=share)
 
-##
+----
 
 ### Slider
 
@@ -349,7 +357,7 @@ function draw() {
 
 [Screen Roacording for this experiement](https://youtube.com/shorts/FVkM0XP0vpk?feature=share)
 
-##
+----
 
 ### Text and Text Input
 
@@ -379,7 +387,7 @@ function draw() {
 
 [Screen Roacording for this experiement](https://youtube.com/shorts/unwQ3XtbohI?feature=share)
 
-## 
+---- 
 
 ### Make an Interactive Sketch
 
@@ -414,9 +422,11 @@ function draw() {
 
 [Screen Roacording for this experiement](https://youtube.com/shorts/1-IYxFIebBc?feature=share)
 
-##
+----
 
 ## Vibe Coding
+
+----
 
 ### Introduction
 
@@ -543,15 +553,17 @@ function drawNightSky() {
 ```
 [Screen Roacording for this experiement](https://youtu.be/oR-XTJImIk4)
 
-## 
+----
 
 ## Independent Study: Week Two
+
+----
 
 ### Overview
 
 Take the data you collected for Experiment 1 and use it as the basis for an interactive p5.js sketch. The challenge is to translate your hand-drawn data portrait into something a viewer can explore, control, or manipulate through interactive elements.
 
-##
+----
 
 ### Step 1: Translate your data drawing into code
 
@@ -565,7 +577,7 @@ You don't need to represent everything. Choose aspects of your data drawing that
 
 The amount of different types of liquid I drink is the numeric, and th types are the categories, the showing of the image is hard to pin down.
 
-##
+----
 
 ### Step 2: Design your interactive visualisation
 
@@ -585,7 +597,7 @@ I chould not figure out how to make this out by myself so I ask ChatGPT to help 
 
 It was a suprise that the symbol for softdrink is a moving image and when the mouse move on to the different colume, the infos on the bottom left will change due to the position.
 
-##
+----
 
 ### Step 3: Iterate
 
@@ -783,7 +795,7 @@ function drawHoverInfo(day) {
 
 [Screen Roacording for this experiement](https://youtu.be/RMkHMvar-dQ)
 
-##
+----
 
 ### Reflection
 

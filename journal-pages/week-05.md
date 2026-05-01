@@ -4,9 +4,13 @@ layout: default
 
 # Week 05
 
+----
+
 [← Back to Home](../index.md)
 
 ## Reflective Proposal
+
+----
 
 In the past few weeks, I experienced multiple different data experiments. And looking back at the making journal, what I’ve been most enjoying is the experiment in data visualisation and using the data as a creative tool. When the data gets through the screens and becomes a physical object that can be felt, it’s so meaningful. The experiment showed that, instead of scrolling through a data chart, showing the data as a flow slowly and visibly, will be more attractive and meaningful. What I have delved into is how the distortion and layering, reveal uncertainty and subjectivity. Thai is compatible with the data humanism and data physicalisation. My practical work aligns with Giorgia Lupi’s documentary, I use her ideas to record visualise the data. I want to carry forward the human-centred idea into my project and keep it in a more resolved physical form. Focusing on the material, interaction with people and how these will change the aspect of data or the relationship between people and the others.
 

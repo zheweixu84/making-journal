@@ -4,9 +4,13 @@ layout: default
 
 # Week 04
 
+----
+
 [← Back to Home](../index.md)
 
 ## Class Communication
+
+----
 
 ### Artificial Intelligence
 
@@ -37,7 +41,7 @@ _What concerns you about AI?_
 
 I actually don't really concern about AI to myself, but the originalty will be a issue as the AI developed, I don't think AI is a bad thing, but there need a more completed rules and laws for the AI usage and publishment.
 
-##
+----
 
 ### From ‘Apple’ to ‘Anomaly’
 
@@ -49,7 +53,7 @@ I actually don't really concern about AI to myself, but the originalty will be a
 
 This example gives me an idea of how much data did a AI contain in the server. A human kind will never have knowledge or information more than an AI.
 
-##
+----
 
 ### Ethical Use of AI in Design
 
@@ -60,7 +64,7 @@ This example gives me an idea of how much data did a AI contain in the server. A
 
 This points out some idea that I been developed in past few experiment and also in the previous section. The original of the work will be issue and this what the designer need to check and notice about.
 
-##
+----
 
 ### How might we do AI differently?
 
@@ -68,7 +72,7 @@ I think as a designer to do AI differently, I need to stop treating it like a ve
 
 This means my real value isn't just making pretty screens or writing code anymore. It is about setting up the human rules and creative boundaries that guide the AI in the first place. By focusing heavily on empathy to find the right problems to solve. Questioning the biases that AI naturally spits out. 
 
-##
+----
 
 ### Ollama
 
@@ -103,7 +107,7 @@ I give it a question that does not correct such as: Use mathematic method to pro
 
 [Screen Roacording for this experiement](https://youtu.be/jALxEGPHdRA)
 
-##
+----
 
 ### Cloud AI
 When you use tools like ChatGPT, CoPilot, or Gemini, your prompts are sent to remote servers where large models process them and return a response.
@@ -115,7 +119,7 @@ This is the opposite of what we just did with Ollama:
  - You’re relying on external infrastructure
  - The models are much larger and more capable
 
-##
+----
 
 ### NotebookLM
 
@@ -192,15 +196,17 @@ And the deep dive version is quite surprised me, it presents the overview in a w
 
 Hearing the work discussed make me understand and remember the information easier and quicker. It's more similar to I am listening to a lecture or involves in a studio activity.
 
-##
+----
 
 ## Independent Study - Week 4
+
+----
 
 ### Overview
 
 Choose a public dataset about life in Aotearoa New Zealand and use cloud-based AI tools to explore, interpret, and represent the data. The challenge is to go beyond a single prompt, working through sustained dialogue with the AI, directing its decisions, and critically evaluating its outputs.
 
-##
+----
 
 ### Step 1: Find a Dataset
 
@@ -212,7 +218,7 @@ I choose a "Train Route" data for this experiment.
 
 [Data Website](https://catalogue.data.govt.nz/dataset/train-route94/resource/1904d212-01c2-4b32-befd-11d758e56c18)
 
-##
+----
 
 ### Step 2: Understand the Data
 
@@ -235,7 +241,7 @@ This data was likely compiled by a transport authority or government body—most
 
 It was collected for Geographic Information Systems (GIS) and infrastructure planning. Its purpose is to map out exact physical routes and platform-to-platform variations to manage rail assets, schedule trains safely without overlapping, and provide digital line geometries for transit mapping apps.
 
-##
+----
 
 ### Step 3: Design Multiple Representations
 
@@ -550,7 +556,7 @@ function mousePressed() {
   if (mouseY < 440) selectedIndex = -1;
 }
 ```
-##
+----
 
 ### Step 4: Critically Evaluate and Reflection
 

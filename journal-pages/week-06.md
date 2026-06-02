@@ -99,5 +99,7 @@ To make my project moving forwards, I need to have a data sets collecting as soo
 
 ### Consultaion Reflection
 
-From the consultation, I been picked up that I can clarify more about 'why' questions. 
+From the consultation, I been picked up that I can clarify more about 'why' questions. And I need to think more about the conceptual design. What do I really want the audience to feel. And what kind of format should I use to represent my idea because this proposal is kind of abstract and hard to installed. I felt like I need to rethinking about my process and what is the idea that I deeply want to develvered to the audience.
+
+The consultation give me the idea of sharpen my project on the impact and can be includes more interactions between the audience and the installation. 
 

@@ -101,5 +101,11 @@ To make my project moving forwards, I need to have a data sets collecting as soo
 
 From the consultation, I been picked up that I can clarify more about 'why' questions. And I need to think more about the conceptual design. What do I really want the audience to feel. And what kind of format should I use to represent my idea because this proposal is kind of abstract and hard to installed. I felt like I need to rethinking about my process and what is the idea that I deeply want to develvered to the audience.
 
-The consultation give me the idea of sharpen my project on the impact and can be includes more interactions between the audience and the installation. 
+The consultation give me the idea of sharpen my project on the impact and can be includes more interactions between the audience and the installation. This help me make a decision on the creating a instant printing interaction and having the printer and the programme as a part of the istallation but not only having the receipts showing on site. And I will be focusing on the aesthic part of the installation, this is because I need to be highly attractive to the audience and create a safe and comfort mood to let the audience think. Not feeling like they are stocking someone else's life.
+
+Also something about the future scenario is a part that I feel like I need to think more about, at this stage because of I didnot really confirm what is the final outcome is so I could not create a well-doned future scenatio. But the overall diraction could be to make the people thinking deeply about the relationship and use the technology to reconise the true feelings. There will be less and less "fake" relationships.
+
+---
+
+### Technical Skill Building
 

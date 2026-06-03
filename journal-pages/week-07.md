@@ -71,4 +71,29 @@ This generation of receipt design adds more image symbol to the design and addit
 
 The three "What if" question I get are:
 
-1. 
+1. What if the form was digital screen based rather than physical?
+
+2. What if having the live data set?
+
+3. What if have a huge data ser?
+
+I choose the first "What if": _**What if the form was digital screen based rather than physical?**_
+
+This could completly change the project by change ontot the digital screen based project. I have to redesign the showcase, if it's digital screen, I will choose to make it as a animation or live interaction. Place a microphone and install a AI assistance in the software. Give live feedbacks to the audience about the conversation.
+
+This could change my proposal from indentifying the true feeling inthe relationship to the privacy environment between the conversation within the public.
+
+But this question reminds me to combine the physical and the digital mathod. I could place the laptop and the printer as a part of the installation, and let the audience interactive with the software and can be able to bring their own receipts away or adds to the installation. This could create a deeper connection between the audience and the installation. Make the audience think more about the idea I would like to delevered.
+
+----
+
+## Independent Study
+
+----
+
+### Project Development & Skill Building
+
+In this week, I work on collecting my dataset.
+
+I 
+

@@ -118,4 +118,30 @@ And my first priority technical gap would be how would I need to have a recepit 
 I have a search about what information will be included in a real receipts and I create a list of informations will be included:
 
 - A general title: Such as "Receipts of Connection"
-- 
+- Name of the people included: such as "TX", I will choose to use a code to symbolised different person for the privacy.
+- Time of the conversation: such as 2/4/2026
+- What is the content about: a conversation about the assignment or a conversation about emotions
+- What emotion do I feel: happy, sad, tired
+- What value do I think I get: This is a tricky part, I would give a value as a price, but this would be very personal and have no specific standard for the value.
+- A generated barcode
+- Thankyou
+
+I choose to use the ChatGPT to help me do the design of the receipts.
+
+![ ](<../assets/week-06/Screenshot 2026-06-03 at 10.52.35 PM.png>)
+
+I'm quite satisfying with this design, it have all the informations I required. And it have a extra note part at the bottom.
+
+---
+
+### Initial Concept Sketch
+
+I was very not good at sketching and this concept sketch is a kind of abstract for me to get all the aspect correct, so I still asked help with generative AI.
+
+ChatGPT generated this sketch based on my Reflective Proposal and the previous receipts it generated.
+
+![ ](<../assets/week-06/Screenshot 2026-05-01 at 2.24.09 PM.png>)
+
+I was really impressed by how powerful is the AI, the style of this sketch is absoulte over espected. It shows my project concept and how's the interactions is going to be. Even have a brief plan biew for the installation. 
+
+I think the gerative AI can highly speed up my process, transform my role to a worker and a designer become, I can put more time and energy on to thinking the idea and having more try and changes to the idea. At the same time, I still need to make sure that AI is creating the correct things but not trust AI for everything.

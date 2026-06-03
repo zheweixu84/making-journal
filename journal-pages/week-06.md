@@ -105,7 +105,7 @@ The consultation give me the idea of sharpen my project on the impact and can be
 
 Also something about the future scenario is a part that I feel like I need to think more about, at this stage because of I didnot really confirm what is the final outcome is so I could not create a well-doned future scenatio. But the overall diraction could be to make the people thinking deeply about the relationship and use the technology to reconise the true feelings. There will be less and less "fake" relationships.
 
----
+----
 
 ### Technical Skill Building
 
@@ -132,7 +132,7 @@ I choose to use the ChatGPT to help me do the design of the receipts.
 
 I'm quite satisfying with this design, it have all the informations I required. And it have a extra note part at the bottom.
 
----
+----
 
 ### Initial Concept Sketch
 

@@ -38,4 +38,37 @@ My answer for this would be I will be only remember the key and valueable conver
 
 2. Are relationship "trust controlled"?
 
-This is an interesting theory question. Trust in this project is not a main part but 
+This is an interesting theory question. Trust in this project is not a main part but I will not create conversation just for the data. And the other person will not know I use the conversation as a part of the dataset, I will be use code to replace the real name to protact the privacy.
+
+3. Do you plan on having a limit on the length of receipts?
+
+This question give me a notice on I can make the recepits in different length and different catagories upto the content, time and the person having the conversation with. And the shorter could use for the interactions and the longer ones could be use for the installation.
+
+----
+
+### Making Sprint
+
+During this making sprint, I keep working on the design of the recepits as I could not have a workable dataset at this time. And my printer is not ready yet. But Leo said he could borrow me the receipt printer for this project. This could help me change my plan from print from normal A3 size, than cut and stick the receipt together to print the long and short recepit straight away.
+
+I have a conversation with Jonny talk about the value part on the receipt. I'm really struggle about the standard of the value. And by using the money to show the conversation is make the relationship commercialization, this could make more social impact and I don't think this would be positive for the project or the idea.
+
+And Jonny have reminds me about a comedy I saw before. It use the energy value, this also been widely used in the mobile games.
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 1.59.43 AM.png>) 
+
+
+I keep with in a range of -10~10 to symbolise if the conversation give me a positive or negative feedbacks and imapct. Higher the value higher the positive feedback it gives me.
+
+I give this new idea and a one day dataset to ChatGPT, asked it to redesign the receipts. 
+
+![ ](<../assets/week-07/ChatGPT Image May 8, 2026, 03_48_25 AM.png>)
+
+This generation of receipt design adds more image symbol to the design and additionally give some hint at the side. I will try to keep working on this gereration of design while the real printing.
+
+----
+
+### 'What if' Variations
+
+The three "What if" question I get are:
+
+1. 

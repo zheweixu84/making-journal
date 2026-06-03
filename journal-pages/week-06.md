@@ -113,3 +113,6 @@ After the discussion in the consultation, I descide to rethinking about the form
 
 And my first priority technical gap would be how would I need to have a recepit print out first. I think this is priority than the interaction design is because of receipts is the most important part of the project, and this is the things that would not be change, this is the most fundamental part of the interactions and installation.
 
+![ ](<../assets/week-06/Screenshot 2026-06-03 at 9.46.42 PM.png>)
+
+I have a search about what information will be included in a real receipts and I 

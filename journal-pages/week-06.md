@@ -115,4 +115,7 @@ And my first priority technical gap would be how would I need to have a recepit 
 
 ![ ](<../assets/week-06/Screenshot 2026-06-03 at 9.46.42 PM.png>)
 
-I have a search about what information will be included in a real receipts and I 
+I have a search about what information will be included in a real receipts and I create a list of informations will be included:
+
+- A general title: Such as "Receipts of Connection"
+- 

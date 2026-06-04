@@ -90,5 +90,9 @@ And for the future scenario, it could be developed into a instant emotion feedba
 
 ### Reflective Summary
 
+From the progress report and the critical design proposition I received some key suggestions mainly about the interactions and the guide lines for the audience. The way of connecting with the audience need to be clearify. 
 
+Instead of having comparative of my own conversation records and letting the audience to have a thinking or guessing on my relationship as the main focus of the interaction. I will change it to having interaction with the software and creating their own record of connection. This can be able to place the audience in the mood of the exhibition and have a deeper connection with my ideas and the installation. By having a identical receipt away after, this will allow a continous think for the audience and this could help me delever the message of identify and rethink about one's relationship.
+
+And the other points is about the digitalise this project. I have quite a decent thinking about this, 
 

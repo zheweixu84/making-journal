@@ -94,7 +94,33 @@ And here's the final design I get for the receipts:
 
 ### Round Robin Rapid Reactions
 
+I receive questions mostlly about the meaning of different informations need to be input. And the others all more curious about how do I make the programme and the printer.
 
+And the idea or the message the visitor receive is accrate or similar to what I want them to have, as the final installation with many receipts hanging on the roof, they could not experience the full experience at the moment.
+
+From Tian's suggestion, I need to work more on the programme's aestic, the programme at the time is too simple and lacking in aesthetic appeal.
+
+----
+
+## Independent Study
+
+----
+
+### Project Development
+
+To achieve the suggestion on improve the aesthic of the programme, I give these suggestion to the Genmini and the process is actually harder and more complex then I thought.
+
+I change type in date to select from calendar to the programme. And change from type in the emotions to select one of the emoji provided in the programme.
+
+![ ](<../assets/week-09/Screenshot 2026-05-15 at 4.45.09 PM.png>)
+
+![ ](<../assets/week-09/Screenshot 2026-05-15 at 4.49.19 PM.png>)
+
+Here is a typical issue that easilly happened, that due to the different model of device and dark/light mode of the computer, the outcome on the code will be different. Because my device is always on dark mode, so the code need to use the reverse colour to show the informations.
+
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.28.22 PM.png>)
+
+And I asked the AI to add a range of text emoji to replace the type in. This can make the receipts looks more professional and this will not be identify as an image while printing, so the print time is still fast and instant.
 
 
 

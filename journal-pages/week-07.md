@@ -113,3 +113,16 @@ The reason I choose to do it at end of the day:
 
 Durning the four days, I have collected 40 conversations in total.
 
+----
+
+### Progress Report
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 2.13.28 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 2.13.46 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 2.28.50 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 2.29.31 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 3.02.23 PM.png>)

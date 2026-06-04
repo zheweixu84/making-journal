@@ -6,19 +6,52 @@ layout: default
 
 [← Back to Home](../index.md)
 
-## Documentation 
+## In-Class Activities
 
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
+----
 
-## Images & Media
+### Progress Reports
 
-*Use the format below to embed images from your assets folder:*
 
-`![Alt text](../assets/week-01/your-image.jpg)`
-`*Your caption here*`
 
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.28 PM.png>)
 
-## AI Usage Statement
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.33 PM.png>)
 
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.37 PM.png>)
+
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.40 PM.png>)
+
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.50.34 PM.png>)
+
+Here's my suggestion for Harrison
+
+![ ](<../assets/week-10/Screenshot 2026-06-04 at 8.15.45 PM.png>)
+
+![ ](<../assets/week-10/Screenshot 2026-06-04 at 8.23.45 PM.png>)
+
+And here's the feedback I got from Harrison.
+
+![ ](<../assets/week-10/Screenshot 2026-06-04 at 8.30.16 PM.png>)
+
+![ ](<../assets/week-10/Screenshot 2026-06-04 at 8.30.24 PM.png>)
+
+----
+
+### Gallery Walk
+
+![ ](<../assets/week-10/Screenshot 2026-06-04 at 8.08.18 PM.png>)
+
+![ ](<../assets/week-10/Screenshot 2026-06-04 at 8.08.14 PM.png>)
+
+
+
+----
+
+### Action Plan
+
+
+
+
+
+

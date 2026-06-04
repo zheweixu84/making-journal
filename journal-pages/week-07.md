@@ -4,6 +4,8 @@ layout: default
 
 # Week 07
 
+[← Back to Home](../index.md)
+
 ## In-Class Activities 
 
 ----

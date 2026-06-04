@@ -90,9 +90,23 @@ And for the future scenario, it could be developed into a instant emotion feedba
 
 ### Reflective Summary
 
+Here's some feedbacks I get from the Critical Design Propositions:
+
+
+
 From the progress report and the critical design proposition I received some key suggestions mainly about the interactions and the guide lines for the audience. The way of connecting with the audience need to be clearify. 
 
 Instead of having comparative of my own conversation records and letting the audience to have a thinking or guessing on my relationship as the main focus of the interaction. I will change it to having interaction with the software and creating their own record of connection. This can be able to place the audience in the mood of the exhibition and have a deeper connection with my ideas and the installation. By having a identical receipt away after, this will allow a continous think for the audience and this could help me delever the message of identify and rethink about one's relationship.
 
-And the other points is about the digitalise this project. I have quite a decent thinking about this, 
+And the other points is about the digitalise this project. I have quite a decent thinking about this, I will includes the programme part in but will not make the whole project a screen based. Because I believe that at this stage, people still will focusing on what they touched than what they saw. The physical feeling is always come first than the visual, your eyes will lie to you but the touch will not. This is also connected to my idea of thinking the ture relationships between people, identifying what is real and what is fake. What relationship brings the positive emotion to self and make the ones' a better one.
+
+----
+
+### Project Development
+
+I borrow the receipts printer from Leo and I can be able to start printing the receipts.
+
+![ ](../assets/week-08/bc7d9a6477445b130ccd9171c875bb14.jpg)
+
+
 

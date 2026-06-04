@@ -108,5 +108,34 @@ I borrow the receipts printer from Leo and I can be able to start printing the r
 
 ![ ](../assets/week-08/bc7d9a6477445b130ccd9171c875bb14.jpg)
 
+I have no experience on the web coding at all, but I have to make a certain programme to run the data and auto print for me, I could not press the print from system process everytime for the audience.
 
+I asked help from Genmini for a process to set up the printer and write a programme for me.
 
+It told me I need to use python to write the programme and set up the printer from terminal app.
+
+![ ](<../assets/week-08/Screenshot 2026-06-04 at 5.55.26 PM.png>)
+
+After a few trying and adjustice on connecting the printer, downloading the external function. I have my first receipts print out.
+
+![ ](../assets/week-08/57a5cd4cd1cef439b751805f59391e35.jpg)
+
+And I keep communicate with the Genmini and try to adjustice the format of the receipts.
+We try a format of printing as image to best achieve the receipts design at the beginning.
+
+![ ](../assets/week-08/0385a5d5253823ba46107a7117e0013b.jpg)
+
+It does give me a perfect effect but the printing is too slow, a single receipt needs about half a minute to print. This is too long for onsite exhibition.
+
+So I use back to the simple text design. And adjust the format in a better size.
+
+![ ](../assets/week-08/5ffa38f40af55f8ddbd5a85ce72d13ed.jpg)
+
+After this, I working more on the program and required to add more functions and details to it:
+
+- limited the input value between -10 to 10
+- install a calendar to choose the date
+- add few hints to some of the boxs.
+- add functions of choose to print as a long or seprate receipts while having multiple conversation is been inputed.
+
+![ ](<../assets/week-08/Screenshot 2026-05-15 at 4.39.59 PM.png>)

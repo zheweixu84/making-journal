@@ -95,5 +95,21 @@ But this question reminds me to combine the physical and the digital mathod. I c
 
 In this week, I work on collecting my dataset.
 
-I 
+I collect this data in a four days period, at the end of each day, I will sit down and start to thinking what conversation do I still remember or any conversation that change my mood at that moment.
+
+The reason I choose to do it at end of the day:
+
+1. I will forget the unimportant conversation by the time. So this could keep the dataset tidy and easier for use.
+
+2. Record the conversation everytime after it ends will cause the uncomfortable and make myself tired on having connversation or taking record done. This could cause the accuracy of the final result and the information delivered to the audience.
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 1.59.07 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 1.59.14 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 1.59.21 PM.png>)
+
+![ ](<../assets/week-07/Screenshot 2026-06-04 at 1.59.28 PM.png>)
+
+Durning the four days, I have collected 40 conversations in total.
 

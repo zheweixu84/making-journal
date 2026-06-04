@@ -92,7 +92,7 @@ And for the future scenario, it could be developed into a instant emotion feedba
 
 Here's some feedbacks I get from the Critical Design Propositions:
 
-
+![ ](../assets/week-08/81a7c5152833cc4d5dbbda04bd12676c.jpg)
 
 From the progress report and the critical design proposition I received some key suggestions mainly about the interactions and the guide lines for the audience. The way of connecting with the audience need to be clearify. 
 

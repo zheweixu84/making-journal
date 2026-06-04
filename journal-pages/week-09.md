@@ -122,5 +122,9 @@ Here is a typical issue that easilly happened, that due to the different model o
 
 And I asked the AI to add a range of text emoji to replace the type in. This can make the receipts looks more professional and this will not be identify as an image while printing, so the print time is still fast and instant.
 
+----
+
+### Progress Report
+
 
 

@@ -126,5 +126,12 @@ And I asked the AI to add a range of text emoji to replace the type in. This can
 
 ### Progress Report
 
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.28 PM.png>)
 
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.33 PM.png>)
 
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.37 PM.png>)
+
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.48.40 PM.png>)
+
+![ ](<../assets/week-09/Screenshot 2026-06-04 at 7.50.34 PM.png>)
